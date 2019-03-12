@@ -14,9 +14,6 @@ brew install windmilleng/tap/tilt
 # wget
 brew install wget
 
-# TLDR
-brew install tldr
-
 # Install Docker for Mac
 ## https://docs.docker.com/docker-for-mac/install/
 wget https://download.docker.com/mac/stable/Docker.dmg
@@ -36,8 +33,10 @@ open /Applications/Visual\ Studio\ Code.app
 
 # Install Github CLI
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install git
 
 # Other utilities
 brew install watch
 brew install telnet
 brew install ack
+brew install tldr
